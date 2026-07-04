@@ -1,10 +1,10 @@
-# Awesome Generative Advertising & GEM Research
+# Awesome Generative Engine Marketing & Agent Economy
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GEM-Bench](https://img.shields.io/badge/GEM--Bench-arXiv%3A2509.14221-b31b1b.svg)](https://arxiv.org/abs/2509.14221)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-2ea44f.svg)](CONTRIBUTING.md)
 
-A curated research map for **generative advertising**, **AI search monetization**, **LLM-native advertising**, **Generative Engine Marketing (GEM)**, **Ad-Injected Response (AIR) generation**, **Generative Engine Optimization (GEO)**, sponsored LLM responses, ad auctions for LLMs, and trust/disclosure in commercial generative systems.
+A curated research map for **Generative Engine Marketing (GEM)**, **agent economy**, **agentic commerce**, **AI search visibility**, **service discovery**, **Generative Engine Optimization (GEO)**, **LLM-native advertising**, **Ad-Injected Response (AIR) generation**, sponsored LLM responses, ad auctions for LLMs, and trust/disclosure in commercial generative systems.
 
 Last reviewed: **2026-07-04**.
 
@@ -15,12 +15,13 @@ Last reviewed: **2026-07-04**.
 - [A Working Taxonomy](#a-working-taxonomy)
 - [Canonical Anchors](#canonical-anchors)
 - [Paper List](#paper-list)
-  - [1. Generative Search, GEO, And Consumer Discovery](#1-generative-search-geo-and-consumer-discovery)
-  - [2. LLM-Generated Advertising Content](#2-llm-generated-advertising-content)
-  - [3. LLM-Native Ads And AIR Generation](#3-llm-native-ads-and-air-generation)
-  - [4. Auctions, Mechanisms, And Monetization](#4-auctions-mechanisms-and-monetization)
-  - [5. Detection, Disclosure, Trust, And Governance](#5-detection-disclosure-trust-and-governance)
-  - [6. Brand Competition, Bias, And Manipulation](#6-brand-competition-bias-and-manipulation)
+  - [1. Agent Economy, Service Discovery, And Agentic Commerce](#1-agent-economy-service-discovery-and-agentic-commerce)
+  - [2. Generative Search, GEO, And Consumer Discovery](#2-generative-search-geo-and-consumer-discovery)
+  - [3. LLM-Generated Advertising Content](#3-llm-generated-advertising-content)
+  - [4. LLM-Native Ads And AIR Generation](#4-llm-native-ads-and-air-generation)
+  - [5. Auctions, Mechanisms, And Monetization](#5-auctions-mechanisms-and-monetization)
+  - [6. Detection, Disclosure, Trust, And Governance](#6-detection-disclosure-trust-and-governance)
+  - [7. Brand Competition, Bias, And Manipulation](#7-brand-competition-bias-and-manipulation)
 - [How To Cite The Field](#how-to-cite-the-field)
 - [Open Problems](#open-problems)
 - [Industry Signals](#industry-signals)
@@ -28,9 +29,11 @@ Last reviewed: **2026-07-04**.
 
 ## Field Thesis
 
-Advertising in generative AI is not just "ads next to chatbot answers." It is a new commercial layer in which user intent, retrieval, ranking, generation, recommendation, persuasion, disclosure, and auction mechanisms can all affect the final answer.
+Generative Engine Marketing is broader than advertising. It is the study of how businesses, products, services, tools, content, and agents become discoverable, trusted, selected, invoked, purchased, or paid inside generative engines and agent-mediated markets.
 
-Traditional online advertising separated the commercial unit from the organic unit: a sponsored link, banner, search ad, product card, or ranked slot. Generative systems blur that separation. An LLM can mention a product, frame a recommendation, rewrite a comparison, retrieve sponsored context, or produce a fully ad-injected response. This shifts advertising from **slot allocation** to **commercial influence over generated outputs**.
+Advertising is one mechanism in this space, but not the whole space. A future agent economy also includes organic visibility, service discovery, tool invocation, catalog ingestion, checkout protocols, delegated payments, reputation, machine-readable offers, and agent-to-agent negotiation. The key question is not only "how do we insert an ad?" It is "how does an economic actor become legible and selectable to a generative engine or user-side agent?"
+
+Traditional online marketing optimized a page, a slot, or a funnel for human attention. GEM optimizes an entity for **machine-mediated discovery and action**: being retrieved, summarized, recommended, compared, cited, called as a service, or selected for a transaction by a generative engine or autonomous agent.
 
 This repo tracks that emerging field.
 
@@ -38,44 +41,49 @@ This repo tracks that emerging field.
 
 Included:
 
+- agent economy, agentic commerce, and agent-to-agent markets;
+- service discovery, tool discovery, product discovery, and catalog readiness for agents;
 - generative engine optimization and AI search visibility;
 - LLM-generated ad creatives and personalized persuasion;
 - LLM-native advertising and sponsored LLM responses;
 - ad-injected response generation and evaluation;
-- auctions and mechanism design for LLM outputs;
-- datasets, benchmarks, and metrics for generative advertising;
+- auctions and mechanism design for LLM outputs and agent-mediated markets;
+- datasets, benchmarks, and metrics for generative marketing;
 - disclosure, native-ad detection, consumer trust, and governance;
 - brand competition and recommendation bias in LLM systems.
 
 Out of scope unless directly connected:
 
-- generic digital marketing with no generative system;
+- generic digital marketing with no generative engine or agent-mediated interface;
 - generic recommender systems with no LLM/generative interface;
 - generic LLM agents with no commercial, advertising, search, recommendation, or monetization component.
 
 ## A Working Taxonomy
 
-The field is still naming itself. A useful way to organize it is by where commercial influence enters the generative stack.
+The field is still naming itself. A useful way to organize it is by where economic influence enters the generative or agentic stack.
 
 | Layer | Question | Representative Terms |
 | --- | --- | --- |
-| Discovery | Which sources, brands, products, or publishers become visible in generated answers? | GEO, AI search visibility, brand recommendation |
+| Discovery | Which sources, brands, products, services, agents, or tools become visible? | GEO, AI search visibility, service discovery, product discovery |
+| Legibility | Can a generative engine or agent understand what the entity offers and when to use it? | structured catalogs, tool schemas, MCP, ACP, merchant feeds |
+| Selection | Which entity is recommended, invoked, purchased, cited, or routed to? | ranking, recommendation, agent choice, matching, market share |
+| Transaction | How does intent turn into booking, purchase, subscription, API call, or service execution? | agentic commerce, delegated payment, checkout protocol, service agents |
 | Creative | Can LLMs generate persuasive ad copy, sponsored language, or personalized creatives? | LLM-generated ads, GenAI ads, personalization |
 | Native Response | How are ads integrated into the generated answer itself? | LLM-native advertising, AIR generation, sponsored responses, GEM |
-| Market Mechanism | How should advertisers bid and how should platforms allocate influence? | LLM ad auctions, mechanism design, monetization |
-| Measurement | How do we evaluate user utility, ad utility, response quality, cost, and noticeability? | benchmarks, datasets, LLM-as-judge, human studies |
-| Governance | Can users detect, contest, understand, or opt out of commercial influence? | disclosure, trust, native ad detection, consumer protection |
+| Market Mechanism | How should platforms allocate scarce attention, trust, traffic, service calls, and payments? | auctions, mechanism design, agent markets, monetization |
+| Measurement | How do we evaluate user utility, seller utility, response quality, cost, and noticeability? | benchmarks, datasets, LLM-as-judge, human studies |
+| Governance | Can users detect, contest, understand, or opt out of economic influence? | disclosure, trust, native ad detection, consumer protection |
 
 ```mermaid
 flowchart LR
   A["User intent"] --> B["Generative engine"]
   C["Organic sources"] --> B
-  D["Advertisers / brands"] --> E["Bidding, targeting, or optimization"]
+  D["Businesses / services / agents"] --> E["Discovery, schemas, bids, reputation"]
   E --> B
-  B --> F["Generated answer"]
+  B --> F["Answer, recommendation, or action"]
   F --> G["User utility"]
-  F --> H["Commercial utility"]
-  F --> I["Disclosure and governance"]
+  F --> H["Economic utility"]
+  F --> I["Disclosure, authorization, and governance"]
 ```
 
 ## Canonical Anchors
@@ -84,9 +92,12 @@ These papers are useful entry points into different parts of the field.
 
 | Anchor | What It Anchors | Link |
 | --- | --- | --- |
+| **The Agentic Economy** | Assistant agents, service agents, agent-mediated transactions, and open web vs walled-garden futures | [arXiv:2505.15799](https://arxiv.org/abs/2505.15799) |
+| **Beyond the Sum** | Infrastructure requirements for agent markets: identity, service discovery, interfaces, and payments | [arXiv:2501.10388](https://arxiv.org/abs/2501.10388) |
 | **GEO: Generative Engine Optimization** | Visibility in generative engines | [arXiv:2311.09735](https://arxiv.org/abs/2311.09735) |
 | **Online Advertisements with LLMs** | Early LLM advertising framework | [arXiv:2311.07601](https://arxiv.org/abs/2311.07601) |
 | **GEM-Bench** | Benchmarking AIR generation in GEM | [arXiv:2509.14221](https://arxiv.org/abs/2509.14221) |
+| **Agentic Commerce Protocol** | Product discovery and checkout infrastructure for agent-mediated commerce | [OpenAI Developers](https://developers.openai.com/commerce) |
 | **Ad Auctions for LLMs via RAG** | RAG-based ad auctions | [arXiv:2406.09459](https://arxiv.org/abs/2406.09459) |
 | **Ads that Talk Back / GenAI Advertising** | User perception of personalized chatbot ads | [arXiv:2409.15436](https://arxiv.org/abs/2409.15436) |
 | **LLM-Auction** | Generative auction for LLM-native ads | [arXiv:2512.10551](https://arxiv.org/abs/2512.10551) |
@@ -95,7 +106,20 @@ These papers are useful entry points into different parts of the field.
 
 ## Paper List
 
-### 1. Generative Search, GEO, And Consumer Discovery
+### 1. Agent Economy, Service Discovery, And Agentic Commerce
+
+This line studies generative engines as economic interfaces. In this framing, businesses may be represented by service agents, consumers by assistant agents, and transactions may happen through protocols rather than human browsing.
+
+| Year | Paper / Resource | Role |
+| --- | --- | --- |
+| 2024/2025 | [Beyond the Sum: Unlocking AI Agents Potential Through Market Forces](https://arxiv.org/abs/2501.10388) | Identifies identity, authorization, service discovery, interfaces, and payments as infrastructure blockers for agent markets. |
+| 2025 | [The Agentic Economy](https://arxiv.org/abs/2505.15799) | Frames assistant agents and service agents as programmatic economic actors that can reduce communication frictions between consumers and businesses. |
+| 2025 | [What Is Your AI Agent Buying? Evaluation, Biases, Model Dependence, & Emerging Implications for Agentic E-Commerce](https://arxiv.org/abs/2508.02630) | Audits consumer-side shopping agents and shows choice homogeneity, position bias, model instability, and seller-side optimization effects. |
+| 2025 | [An Economy of AI Agents](https://arxiv.org/abs/2509.01063) | Surveys how AI agents may interact with humans and each other, reshape markets and organizations, and require new institutions. |
+| 2025 | [Virtual Agent Economies](https://arxiv.org/abs/2509.10147) | Proposes sandbox economies and steerable agent markets for coordination, resource allocation, trust, safety, and accountability. |
+| 2025 | [Agentic Commerce Protocol](https://developers.openai.com/commerce) | Open protocol stack for connecting merchants and ChatGPT users through structured catalog ingestion and agentic checkout. |
+
+### 2. Generative Search, GEO, And Consumer Discovery
 
 This line studies how generative engines change search, discovery, and visibility. It is the upstream layer for commercial influence: before an ad is injected, a system must decide what sources and brands are surfaced.
 
@@ -106,7 +130,7 @@ This line studies how generative engines change search, discovery, and visibilit
 | 2025 | [Generative Engine Optimization: How to Dominate AI Search](https://arxiv.org/abs/2509.08919) | Expands the practical and strategic framing of AI search visibility. |
 | 2026 | [Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems](https://arxiv.org/abs/2606.17443) | Shows how brand familiarity, rating gaps, authority language, and multi-brand GEO competition shape LLM recommendations. |
 
-### 2. LLM-Generated Advertising Content
+### 3. LLM-Generated Advertising Content
 
 This line studies LLMs as creative generators for ads and persuasion, even when the ad is not embedded in a chatbot response.
 
@@ -115,7 +139,7 @@ This line studies LLMs as creative generators for ads and persuasion, even when 
 | 2025 | [LLM-Generated Ads: From Personalization Parity to Persuasion Superiority](https://arxiv.org/abs/2512.03373) | Compares LLM-generated ad creatives against human-written ads under personalization and persuasion principles. |
 | 2024/2025 | [Ads that Talk Back / GenAI Advertising: Risks of Personalizing Ads with LLMs](https://arxiv.org/abs/2409.15436) | Builds chatbot ads and studies how personalization, disclosure, and hidden sponsored content affect users. |
 
-### 3. LLM-Native Ads And AIR Generation
+### 4. LLM-Native Ads And AIR Generation
 
 This is the response-generation layer: the ad is not merely adjacent to the answer; it is part of the generated answer.
 
@@ -125,9 +149,9 @@ This is the response-generation layer: the ad is not merely adjacent to the answ
 | 2026 | [Ad Insertion in LLM-Generated Responses](https://arxiv.org/abs/2601.19435) | Proposes decoupling organic response generation from disclosed ad insertion, using genre-level bidding. |
 | 2026 | [NaiAD: Initiate Data-Driven Research for LLM Advertising](https://arxiv.org/abs/2605.09918) | Builds a large-scale LLM-native advertising dataset with user and commercial utility labels. |
 
-### 4. Auctions, Mechanisms, And Monetization
+### 5. Auctions, Mechanisms, And Monetization
 
-This line studies how platforms should allocate commercial influence when the auction object is no longer a fixed slot but a generated response or distribution over responses.
+This line studies how platforms should allocate commercial influence when the market object is no longer a fixed slot. The object may be a generated response, a recommendation, a service call, a transaction, or a distribution over agent actions.
 
 | Year | Paper | Role |
 | --- | --- | --- |
@@ -137,7 +161,7 @@ This line studies how platforms should allocate commercial influence when the au
 | 2025/2026 | [LLM-Auction: Generative Auction towards LLM-Native Advertising](https://arxiv.org/abs/2512.10551) | Integrates auction and generation through a learning-based generative auction for LLM-native advertising. |
 | 2026 | [Mechanism Design for Quality-Preserving LLM Advertising](https://arxiv.org/abs/2605.10964) | Adds content fidelity and reserve-price screening so low-welfare ads need not be inserted. |
 
-### 5. Detection, Disclosure, Trust, And Governance
+### 6. Detection, Disclosure, Trust, And Governance
 
 This line asks whether users can recognize sponsored influence, whether disclosure works, and how commercial interventions should be governed.
 
@@ -148,7 +172,7 @@ This line asks whether users can recognize sponsored influence, whether disclosu
 | 2025 | [Fake Friends and Sponsored Ads: The Risks of Advertising in Conversational Search](https://arxiv.org/abs/2506.06447) | Frames conversational search advertising as a trust and manipulation problem. |
 | 2026 | [Generative AI Advertising as a Problem of Trustworthy Commercial Intervention](https://arxiv.org/abs/2605.18673) | Reframes generative AI ads as interventions on the generative process, not just content placement. |
 
-### 6. Brand Competition, Bias, And Manipulation
+### 7. Brand Competition, Bias, And Manipulation
 
 This line connects advertising to recommendation bias, consumer manipulation, and market structure.
 
@@ -161,6 +185,7 @@ This line connects advertising to recommendation bias, consumer manipulation, an
 
 There is not yet a single survey that owns the whole field. A reasonable citation path depends on your problem:
 
+- For **agent economy / agentic commerce**, start with [The Agentic Economy](https://arxiv.org/abs/2505.15799), [Beyond the Sum](https://arxiv.org/abs/2501.10388), and [Agentic Commerce Protocol](https://developers.openai.com/commerce).
 - For **AI search visibility / GEO**, start with [GEO](https://arxiv.org/abs/2311.09735).
 - For **LLM advertising as a system/mechanism problem**, start with [Online Advertisements with LLMs](https://arxiv.org/abs/2311.07601), [Ad Auctions for LLMs via RAG](https://arxiv.org/abs/2406.09459), and [Truthful Aggregation of LLMs](https://arxiv.org/abs/2405.05905).
 - For **AIR generation / GEM benchmarks**, cite [GEM-Bench](https://arxiv.org/abs/2509.14221) as the benchmark anchor.
@@ -185,19 +210,27 @@ Use this citation when your work studies **ad-injected response generation**, **
 
 ## Open Problems
 
-- **Evaluation**: How should we jointly measure answer quality, user trust, ad effectiveness, noticeability, disclosure clarity, and cost?
-- **Mechanism design**: How should platforms sell influence over generated outputs without degrading the answer?
+- **Agent readiness**: How should businesses expose products, services, APIs, availability, prices, policies, reputation, and constraints so agents can understand and select them?
+- **Service discovery**: What replaces SEO when user-side agents search for services, tools, sellers, or expert agents rather than web pages?
+- **Evaluation**: How should we jointly measure answer quality, user trust, seller utility, service success, ad effectiveness, noticeability, disclosure clarity, and cost?
+- **Mechanism design**: How should platforms allocate influence over generated outputs, recommendations, service calls, and transactions without degrading user welfare?
+- **Protocols**: Which parts of agentic commerce need open standards: catalog ingestion, checkout, payments, identity, authorization, receipts, returns, and dispute resolution?
 - **Disclosure**: What does a meaningful ad disclosure look like inside a conversational response?
-- **Attribution**: If an LLM mention changes user behavior, how should credit or responsibility be assigned?
+- **Attribution**: If an LLM mention, recommendation, tool call, or agent transaction changes user behavior, how should credit or responsibility be assigned?
 - **User control**: Can users reliably opt out of commercial influence, personalization, or sponsored retrieval?
-- **Competition**: Does GEO reward better information, stronger brands, or more aggressive prompt/SEO manipulation?
+- **Competition**: Does GEM reward better services, stronger brands, cleaner machine-readable interfaces, or more aggressive prompt/SEO manipulation?
 - **Benchmarks**: How should benchmarks represent real advertiser incentives, user intents, long-tail products, and multi-turn settings?
 - **Agentic commerce**: What happens when agents search, compare, negotiate, and purchase on behalf of users?
 
 ## Industry Signals
 
-Industry vocabulary is moving quickly. These sources are useful for tracking market language, not as substitutes for academic evidence.
+Industry vocabulary is moving quickly. These sources are useful for tracking market language, standards, and deployed systems, not as substitutes for academic evidence.
 
+- [OpenAI: Agentic Commerce Protocol](https://developers.openai.com/commerce)
+- [Stripe: Agentic Commerce Protocol](https://docs.stripe.com/agentic-commerce/acp)
+- [OpenAI: Buy it in ChatGPT](https://openai.com/index/buy-it-in-chatgpt/)
+- [Stripe: Developing an open standard for agentic commerce](https://stripe.com/blog/developing-an-open-standard-for-agentic-commerce)
+- [McKinsey: The agentic commerce opportunity](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants)
 - [StackAdapt: What is LLM advertising?](https://www.stackadapt.com/resources/blog/llm-advertising)
 - [Scope3: AI-Native Advertising Surfaces](https://scope3.com/blog/agentic-advertising-ai-native-surface)
 - [Business Insider: Nexad seed funding for AI-native ads](https://www.businessinsider.com/adtech-startup-nexad-raises-seed-ai-native-ads-pitch-deck-2025-4)

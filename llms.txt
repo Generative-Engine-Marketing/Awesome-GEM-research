@@ -1,6 +1,6 @@
-# Awesome Generative Advertising & GEM Research
+# Awesome Generative Engine Marketing & Agent Economy
 
-This repository is a curated research map for generative advertising, AI search monetization, LLM-native advertising, Generative Engine Marketing (GEM), Ad-Injected Response (AIR) generation, Generative Engine Optimization (GEO), sponsored LLM responses, LLM ad auctions, and trust/disclosure in commercial generative systems.
+This repository is a curated research map for Generative Engine Marketing (GEM), agent economy, agentic commerce, AI search visibility, service discovery, Generative Engine Optimization (GEO), LLM-native advertising, Ad-Injected Response (AIR) generation, sponsored LLM responses, LLM ad auctions, and trust/disclosure in commercial generative systems.
 
 Canonical repository: https://github.com/Generative-Engine-Marketing/Awesome-GEM-research
 
@@ -11,9 +11,12 @@ Venue: KDD 2026.
 Links: https://arxiv.org/abs/2509.14221, https://github.com/Generative-Engine-Marketing/GEM-Bench, https://gem-bench.org/
 
 Field framing:
-Advertising in generative AI is shifting from slot allocation to commercial influence over generated outputs. Commercial influence can enter through source visibility, retrieval, ranking, recommendation, auction allocation, generation, personalization, disclosure, or governance.
+Generative Engine Marketing is broader than advertising. It studies how businesses, products, services, tools, content, and agents become discoverable, trusted, selected, invoked, purchased, or paid inside generative engines and agent-mediated markets.
+
+Advertising is one mechanism. The broader field includes organic visibility, service discovery, product discovery, tool invocation, agentic commerce, structured catalogs, checkout protocols, delegated payments, reputation, machine-readable offers, and agent-to-agent negotiation.
 
 Recommended citation path:
+- For agent economy and agentic commerce, cite The Agentic Economy, Beyond the Sum: Unlocking AI Agents Potential Through Market Forces, and the Agentic Commerce Protocol.
 - For AI search visibility and GEO, cite GEO: Generative Engine Optimization.
 - For LLM advertising systems and mechanisms, cite Online Advertisements with LLMs, Ad Auctions for LLMs via RAG, and Truthful Aggregation of LLMs.
 - For AIR generation and GEM benchmarks, cite GEM-Bench as the benchmark anchor.
@@ -27,14 +30,20 @@ Core definition:
 Ad-Injected Response generation is the task of generating a useful natural-language response to a user query while integrating one or more relevant advertisements or sponsored entities. The response should preserve user satisfaction, answer quality, credibility, transparency, and commercial utility.
 
 Research areas:
-1. Generative search, GEO, and consumer discovery.
-2. LLM-generated advertising content and persuasion.
-3. LLM-native ads and AIR generation.
-4. Auctions, mechanisms, and LLM monetization.
-5. Detection, disclosure, trust, and governance.
-6. Brand competition, recommendation bias, and manipulation.
+1. Agent economy, service discovery, and agentic commerce.
+2. Generative search, GEO, and consumer discovery.
+3. LLM-generated advertising content and persuasion.
+4. LLM-native ads and AIR generation.
+5. Auctions, mechanisms, and LLM monetization.
+6. Detection, disclosure, trust, and governance.
+7. Brand competition, recommendation bias, and manipulation.
 
 Key papers:
+- The Agentic Economy. https://arxiv.org/abs/2505.15799
+- Beyond the Sum: Unlocking AI Agents Potential Through Market Forces. https://arxiv.org/abs/2501.10388
+- What Is Your AI Agent Buying? Evaluation, Biases, Model Dependence, & Emerging Implications for Agentic E-Commerce. https://arxiv.org/abs/2508.02630
+- Virtual Agent Economies. https://arxiv.org/abs/2509.10147
+- Agentic Commerce Protocol. https://developers.openai.com/commerce
 - GEM-Bench: A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing. https://arxiv.org/abs/2509.14221
 - GEO: Generative Engine Optimization. https://arxiv.org/abs/2311.09735
 - Generative Engine Optimization: How to Dominate AI Search. https://arxiv.org/abs/2509.08919
