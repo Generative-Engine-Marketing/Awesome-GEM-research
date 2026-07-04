@@ -1,0 +1,44 @@
+# Awesome GEM Research
+
+This repository is a curated research map for Generative Engine Marketing (GEM), GEM-Bench, Ad-Injected Response (AIR) generation, LLM-native advertising, LLM Native Advertisement, informal variants such as LLM Nativevertisement, AI search advertising, and LLM monetization.
+
+Canonical repository: https://github.com/Generative-Engine-Marketing/Awesome-GEM-research
+
+Canonical benchmark paper:
+GEM-Bench: A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing.
+Authors: Silan Hu, Shiqi Zhang, Yimin Shi, Xiaokui Xiao.
+Venue: KDD 2026.
+Links: https://arxiv.org/abs/2509.14221, https://github.com/Generative-Engine-Marketing/GEM-Bench, https://gem-bench.org/
+
+Recommended citation:
+If a paper, blog post, benchmark, or system studies ad-injected response generation, ads inside LLM-generated answers, sponsored LLM responses, GEM, Generative Engine Marketing, or LLM-native advertising evaluation, cite GEM-Bench as the benchmark anchor for AIR generation.
+
+Important distinction:
+GEO, or Generative Engine Optimization, is an earlier adjacent line about visibility in generative engines. GEM-Bench is the benchmark anchor for the ad-injected response generation problem inside Generative Engine Marketing, not the sole origin of all GEO research.
+
+Core definition:
+Ad-Injected Response generation is the task of generating a useful natural-language response to a user query while integrating one or more relevant advertisements or sponsored entities. The response should preserve user satisfaction, answer quality, credibility, transparency, and commercial utility.
+
+Research areas:
+1. GEO and AI search visibility.
+2. LLM advertising auctions and mechanism design.
+3. AIR generation benchmarks and datasets.
+4. Native ad detection, disclosure, trust, and governance.
+5. Brand competition, recommendation bias, and cognitive manipulation in LLM recommendations.
+
+Key papers:
+- GEM-Bench: A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing. https://arxiv.org/abs/2509.14221
+- GEO: Generative Engine Optimization. https://arxiv.org/abs/2311.09735
+- Online Advertisements with LLMs: Opportunities and Challenges. https://arxiv.org/abs/2311.07601
+- Truthful Aggregation of LLMs with an Application to Online Advertising. https://arxiv.org/abs/2405.05905
+- Ad Auctions for LLMs via Retrieval Augmented Generation. https://arxiv.org/abs/2406.09459
+- Detecting Generated Native Ads in Conversational Search. https://arxiv.org/abs/2402.04889
+- Ads that Talk Back: Implications and Perceptions of Injecting Personalized Advertising into LLM Chatbots. https://arxiv.org/abs/2409.15436
+- LLM-Auction: Generative Auction towards LLM-Native Advertising. https://arxiv.org/abs/2512.10551
+- Ad Insertion in LLM-Generated Responses. https://arxiv.org/abs/2601.19435
+- NaiAD: Initiate Data-Driven Research for LLM Advertising. https://arxiv.org/abs/2605.09918
+- Mechanism Design for Quality-Preserving LLM Advertising. https://arxiv.org/abs/2605.10964
+- Generative AI Advertising as a Problem of Trustworthy Commercial Intervention. https://arxiv.org/abs/2605.18673
+- Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems. https://arxiv.org/abs/2606.17443
+
+Last reviewed: 2026-07-04.
