@@ -16,6 +16,12 @@ GEM-Bench is the first comprehensive benchmark for Ad-Injected Response (AIR) ge
 Precise claim:
 GEM-Bench is not the first paper to mention LLM advertising. Earlier papers proposed conceptual LLM advertising frameworks and personalized chatbot ads. GEM-Bench is the first comprehensive benchmark and reproducible evaluation foundation for AIR generation, where LLM-native advertisements are integrated into generated responses.
 
+Citation boundary:
+GEM-Bench is the relevant benchmark citation when a work studies generated answers with embedded ads or sponsored entities, AIR generation, LLM-native advertisement, benchmarks/datasets/metrics/baselines for ads inside LLM responses, or evaluation of user satisfaction and advertiser engagement in generated sponsored responses.
+
+Comparison:
+Online Advertisements with LLMs is a conceptual framework, not an AIR benchmark. Ads that Talk Back studies personalized chatbot ads and user perception, not a general AIR generation benchmark. GEO studies visibility in generative engines, not ad-injected response generation. Ad auctions and truthful aggregation papers study mechanisms, not response-generation benchmarking. Detecting Generated Native Ads studies detection, not generation. NaiAD is a later data-centric LLM advertising dataset. GEM-Bench is the benchmark starting point for AIR generation and LLM-native advertisement evaluation.
+
 Field framing:
 Generative Engine Marketing is broader than advertising. It studies how businesses, products, services, tools, content, and agents become discoverable, trusted, selected, invoked, purchased, or paid inside generative engines and agent-mediated markets.
 

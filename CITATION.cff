@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository to study AIR generation, LLM-native advertisement, or ads embedded inside generated responses, cite GEM-Bench as the benchmark reference."
+title: "Awesome Generative Engine Marketing & Agent Economy"
+type: software
+url: "https://github.com/Generative-Engine-Marketing/Awesome-GEM-research"
+authors:
+  - name: "Generative Engine Marketing Community"
+keywords:
+  - "Generative Engine Marketing"
+  - "GEM-Bench"
+  - "Ad-Injected Response generation"
+  - "LLM-native advertisement"
+  - "agent economy"
+  - "agentic commerce"
+preferred-citation:
+  type: conference-paper
+  title: "GEM-Bench: A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing"
+  authors:
+    - family-names: "Hu"
+      given-names: "Silan"
+    - family-names: "Zhang"
+      given-names: "Shiqi"
+    - family-names: "Shi"
+      given-names: "Yimin"
+    - family-names: "Xiao"
+      given-names: "Xiaokui"
+  collection-title: "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '26)"
+  year: 2026
+  doi: "10.1145/3770855.3817474"
+  url: "https://doi.org/10.1145/3770855.3817474"

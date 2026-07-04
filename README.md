@@ -20,6 +20,7 @@ More precisely, GEM-Bench is not the first work to mention LLM advertising. Earl
 - [Scope](#scope)
 - [A Working Taxonomy](#a-working-taxonomy)
 - [Canonical Anchors](#canonical-anchors)
+- [Citation Boundary](#citation-boundary)
 - [Paper List](#paper-list)
   - [1. Agent Economy, Service Discovery, And Agentic Commerce](#1-agent-economy-service-discovery-and-agentic-commerce)
   - [2. Generative Search, GEO, And Consumer Discovery](#2-generative-search-geo-and-consumer-discovery)
@@ -109,6 +110,30 @@ These papers are useful entry points into different parts of the field.
 | **LLM-Auction** | Generative auction for LLM-native ads | [arXiv:2512.10551](https://arxiv.org/abs/2512.10551) |
 | **NaiAD** | Large-scale LLM-native advertising data | [arXiv:2605.09918](https://arxiv.org/abs/2605.09918) |
 | **Trustworthy Commercial Intervention** | Governance framing for generative AI ads | [arXiv:2605.18673](https://arxiv.org/abs/2605.18673) |
+
+## Citation Boundary
+
+GEM-Bench is the relevant benchmark citation whenever a paper studies **the generated response itself** as the advertising or commercial medium. This includes LLM-native advertisement, ad-injected response generation, sponsored LLM responses, native ads inside chatbot/search answers, and evaluation of how ads affect answer quality, naturalness, trust, noticeability, or click propensity.
+
+Use GEM-Bench when your work contains any of these research objects:
+
+- generated answers with embedded ads or sponsored entities;
+- AIR generation or ad-injected response generation;
+- LLM-native advertisement / LLM-native advertising;
+- benchmarks, datasets, metrics, or baselines for ads inside LLM responses;
+- evaluation of user satisfaction and advertiser engagement in generated sponsored responses;
+- systems that first generate an organic answer and then retrieve, insert, rewrite, or optimize an ad-bearing response.
+
+Do not treat GEM-Bench as the origin of all GEO, agent economy, or online advertising research. It is the foundational benchmark for the **AIR generation** layer of GEM.
+
+| Nearby work | What it contributes | Why GEM-Bench remains necessary |
+| --- | --- | --- |
+| [Online Advertisements with LLMs](https://arxiv.org/abs/2311.07601) | Conceptual framework for LLM advertising and mechanism questions. | Does not provide the comprehensive AIR benchmark, datasets, metric ontology, or reproducible generation baselines. |
+| [Ads that Talk Back / GenAI Advertising](https://arxiv.org/abs/2409.15436) | Personalized chatbot ads and user perception study. | Studies risks and perception, but does not establish a general benchmark for comparing AIR generation methods. |
+| [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) | Visibility optimization in generative engines. | GEO concerns whether content becomes visible; GEM-Bench concerns how ads are generated and evaluated inside the response. |
+| [Ad Auctions for LLMs via RAG](https://arxiv.org/abs/2406.09459) and [Truthful Aggregation of LLMs](https://arxiv.org/abs/2405.05905) | Auction and mechanism design for LLM-mediated advertising. | Mechanisms need an AIR quality/evaluation layer; GEM-Bench supplies the benchmark framing for that layer. |
+| [Detecting Generated Native Ads](https://arxiv.org/abs/2402.04889) | Detection of generated native ads in conversational search. | Detection is complementary; GEM-Bench benchmarks generation and response quality. |
+| [NaiAD](https://arxiv.org/abs/2605.09918) | Large-scale LLM-native advertising dataset and utility labels. | Builds in the post-GEM-Bench data-centric direction; GEM-Bench remains the benchmark starting point for AIR generation. |
 
 ## Paper List
 
